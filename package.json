@@ -1,0 +1,57 @@
+{
+  "name": "@digitalmaas/esbuild-plugin-ejs",
+  "version": "0.0.0-semantic",
+  "description": "An esbuild plugin that adds support for Embedded JavaScript Templates (.ejs) imports",
+  "main": "index.js",
+  "types": "index.d.ts",
+  "scripts": {
+    "lint": "prettier . --check --ignore-unknown",
+    "lint:fix": "prettier . --check --write --ignore-unknown",
+    "prepare": "husky install",
+    "release": "semantic-release",
+    "test": "npm run lint && npm run test:unit --",
+    "test:unit": "echo \"no tests yet\""
+  },
+  "peerDependencies": {
+    "esbuild": ">=0.18.1"
+  },
+  "dependencies": {
+    "ejs": "^3.1.9"
+  },
+  "devDependencies": {
+    "@commitlint/cli": "19.2.1",
+    "@commitlint/config-conventional": "19.1.0",
+    "@semantic-release/changelog": "6.0.3",
+    "@semantic-release/commit-analyzer": "11.1.0",
+    "@semantic-release/git": "10.0.1",
+    "@semantic-release/github": "9.2.6",
+    "@semantic-release/npm": "11.0.3",
+    "esbuild": "^0.18.1",
+    "husky": "9.0.11",
+    "lint-staged": "15.2.2",
+    "prettier": "3.2.5",
+    "semantic-release": "22.0.12"
+  },
+  "engines": {
+    "node": ">=14"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/digitalmaas/esbuild-plugin-ejs"
+  },
+  "bugs": {
+    "url": "https://github.com/digitalmaas/esbuild-plugin-ejs/issues"
+  },
+  "keywords": [
+    "esbuild",
+    "esbuild-plugin",
+    "plugin",
+    "ejs"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "author": "Ricardo Nolde <nolde@users.noreply.github.com>",
+  "homepage": "https://github.com/digitalmaas/esbuild-plugin-ejs#readme",
+  "license": "MIT"
+}

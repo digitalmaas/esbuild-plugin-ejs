@@ -1,0 +1,9 @@
+# blacklists it all
+/*
+
+# enable only the needed files
+!README.md
+!LICENSE
+!package.json
+!index.js
+!index.d.ts

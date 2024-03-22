@@ -1,0 +1,21 @@
+node_modules/
+.husky/*/
+
+# common ignore files
+test.*.json
+*.log
+*.orig
+*.env
+*.tgz
+*.tar
+
+# common editor and system directories and files
+.DS_Store
+.idea
+.sublime-*
+.*-project
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.patch
